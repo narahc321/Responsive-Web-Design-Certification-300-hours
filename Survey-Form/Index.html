@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <main id="main">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">The following is a sample survey form</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">Enter Name : </label>
+            <input type="text" id="name" placeholder="name here" required>
+            <label for="email" id="email-label" >Enter Email : </label>
+            <input type="email" id="email" placeholder="email here" required>
+            <label for="number" id="number-label">Enter Number : </label>
+            <input type="number" min=10 max=100 id="number"  placeholder="number here"required>
+            <select id="dropdown" required>
+                <option value="adab" id="option-adab" value="adab">adab</option>
+                <option value="Welcome" id="option-Welcome" value="Welcome">Welcome</option>
+            </select>
+
+            <label for="Hello" id="label-Hello">Hello</label>
+            <input type="checkbox" name="salutation-1" id="Hello" value="Hello">
+            <label for="Hii" id="label-Hii">Hii</label>
+            <input type="checkbox" name="salutation-1" id="Hii" value="Hii">
+
+            <label for="Namaste" id="label-Namaste">Namaste</label>
+            <input type="radio" name="salutation" id="Namaste" value="namaste">
+            <label for="Vanakkam" id="label-Vanakkam">Vanakkam</label>
+            <input type="radio" name="salutation" id="Vanakkam" value="Vanakkam">
+            <label for="textarea" id="label-textarea ">textArea</label>
+            <textarea id="textarea"></textarea>
+            <input type="submit" id="submit">
+        </form>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
